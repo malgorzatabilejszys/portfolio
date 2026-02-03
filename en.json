@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "language": {
+    "en": "English",
+    "da": "Dansk"
+  },
+  "modeToggle": {
+    "light": "Light Mode",
+    "dark": "Dark Mode"
+  },
+  "hero": {
+    "title": "Welcome to My Portfolio",
+    "subtitle": "Showcasing my work and skills"
+  },
+  "footer": {
+    "copyright": "© 2025 Your Name. All rights reserved."
+  },
+  "pages": {
+    "home": {
+      "title": "Home"
+    },
+    "portfolio": {
+      "title": "My Portfolio"
+    },
+    "product": {
+      "title": "Product Details"
+    },
+    "cv": {
+      "title": "Curriculum Vitae"
+    },
+    "contact": {
+      "title": "Contact Me"
+    }
+  }
+}
+

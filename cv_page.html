@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Your Name</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+  <div class="scroll-progress"></div>
+  
+  <header>
+      <nav>
+          <div class="logo">
+              <a href="index.html">
+                  <img src="/mblogo.jpg" alt="Logo" height="50" width="50">
+              </a>
+          </div>
+          <ul class="nav-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li class="active"><a href="cv_page.html">CV</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="mode-toggle-container">
+              <button id="mode-toggle">Light Mode</button>
+          </div>
+      </nav>
+  </header>
+
+  <div class="breadcrumbs">
+      <div class="container">
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active">CV</li>
+          </ul>
+      </div>
+  </div>
+
+  <main class="cv-container">
+      <div class="cv-actions">
+          <a href="/cv.pdf" class="btn btn-download" target="_blank">Download CV as PDF <i class="fas fa-download"></i></a>
+      </div>
+      
+      <div class="cv-header section-animate">
+          <h1>Malgorzata Bilejszys</h1>
+          <p>I am an ambitious and structured master's student in Web Communication with an engineering background in product development. I thrive on solving design challenges, and exploring new digital tools. I am seeking a student position where I can develop my IT and project management competencies while contributing to impactful projects.</p>
+      </div>
+      
+      <section id="education" class="cv-section section-animate">
+          <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="cv-item education-item">
+              <h3>Master of Science in Engineering in Product Development and Innovation</h3>
+              <p><i class="fas fa-university"></i> Syddansk Universitet, Denmark | September 2025 - July 2027</p>
+              <p><strong>Competencies:</strong> Product Management</p>
+          </div>
+          <div class="cv-item education-item">
+              <h3>Master of Science in Web Communication</h3>
+              <p><i class="fas fa-university"></i> Syddansk Universitet, Denmark | September 2024 - July 2025</p>
+              <p><strong>Competencies:</strong> Front-End Development (HTML5, CSS, JavaScript), UX/UI Design, Digital Tools, Web Design</p>
+          </div>
+          <div class="cv-item education-item">
+              <h3>Bachelor of Engineering in Industrial Design</h3>
+              <p><i class="fas fa-university"></i> Kielce University of Technology, Poland | October 2014 – July 2018</p>
+              <p><strong>Competencies:</strong> Project Management, Product Design, CAD/CAM Software, Prototyping, Technical Problem-Solving</p>
+          </div>
+      </section>
+      
+      <section id="experience" class="cv-section section-animate">
+          <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
+          <div class="cv-item experience-item">
+              <h3>Student Worker in Service Business Development</h3>
+              <p><i class="fas fa-building"></i> Gram Equipment, Denmark | May 2025 – present</p>
+              <ul>
+                  <li>Developed digital ice-cream machine training</li>
+              </ul>
+          </div>
+          <div class="cv-item experience-item">
+              <h3>Product Development Specialist</h3>
+              <p><i class="fas fa-building"></i> PROHACCP LLC, Poland | February 2020 – December 2023</p>
+              <ul>
+                  <li>Managed product development projects and cooperated with sales and production teams .</li>
+                  <li>Designed solutions using CAD/CAM software with a focus on client needs and manufacturing efficiency.</li>
+                  <li>Conducted quality control checks and ensured compliance with strict industry hygiene standards.</li>
+                  <li>Prepared technical documentation and instructions.</li>
+                  <li>Organized internal R&D meetings for knowledge sharing.</li>
+              </ul>
+          </div>
+      </section>
+      <section id="skills" class="cv-section section-animate">
+          <h2><i class="fas fa-laptop-code"></i> Software Skills</h2>
+          <p>SolidWorks, Figma, Adobe Creative Suite, Microsoft pack, ERP, AI, HTML5, CSS, JavaScript</p>
+      </section>
+      
+      <section id="competencies" class="cv-section section-animate">
+          <h2><i class="fas fa-check-circle"></i> Core Competencies</h2>
+          <ul class="skills-list">
+              <li>Project management</li>
+              <li>Technical documentation and reporting</li>
+              <li>Problem-solving and critical thinking</li>
+              <li>Design visualization and UX principles</li>
+              <li>Attention to detail and analytical abilities</li>
+              <li>Flexibility and adaptability</li>
+          </ul>
+      </section>
+      
+      <section id="languages" class="cv-section section-animate">
+          <h2><i class="fas fa-globe"></i> Languages</h2>
+          <ul class="skills-list">
+              <li>English – C2 (Certificate of Advanced English)</li>
+              <li>Danish – C1 (Studieprøven)</li>
+              <li>Polish – Native</li>
+          </ul>
+      </section>
+      
+      <section id="certificates" class="cv-section section-animate">
+          <h2><i class="fas fa-certificate"></i> Certificates</h2>
+          <div class="certificate-list">
+              <div class="certificate-item" data-certificate="studieproven">
+                  <div class="certificate-content">
+                      <h3>Studieprøven</h3>
+                      <p>December 2024 | Udlændinge- og Integrationsministeriet</p>
+                      <p>Danish language proficiency at C1 level, allowing academic studies in Danish.</p>
+                  </div>
+                  <div class="certificate-thumbnail">
+                      <img src="/studieproven.jpg" alt="Studieprøven Certificate Thumbnail">
+                      <span class="view-certificate">View <i class="fas fa-search-plus"></i></span>
+                  </div>
+              </div>
+              
+              <div class="certificate-item" data-certificate="dansk3">
+                  <div class="certificate-content">
+                      <h3>Prøve i Dansk 3</h3>
+                      <p>December 2024 | Udlændinge- og Integrationsministeriet</p>
+                      <p>Advanced Danish language certification demonstrating professional fluency.</p>
+                  </div>
+                  <div class="certificate-thumbnail">
+                      <img src="/pd3.jpg" alt="Prøve i Dansk 3 Certificate Thumbnail">
+                      <span class="view-certificate">View <i class="fas fa-search-plus"></i></span>
+                  </div>
+              </div>
+              
+              <div class="certificate-item" data-certificate="solidworks-sheet">
+                  <div class="certificate-content">
+                      <h3>Certified SolidWorks Professional</h3>
+                      <p>August 2020 | DS SolidWorks Corporation</p>
+                      <p>Advanced certification in sheet metal design using SolidWorks CAD software.</p>
+                  </div>
+                  <div class="certificate-thumbnail">
+                      <img src="/sheet_metal.jpg" alt="SolidWorks Sheet Metal Certificate Thumbnail">
+                      <span class="view-certificate">View <i class="fas fa-search-plus"></i></span>
+                  </div>
+              </div>
+              
+              <div class="certificate-item" data-certificate="solidworks">
+                  <div class="certificate-content">
+                      <h3>Certified SolidWorks Professional</h3>
+                      <p>November 2018 | SolidWorks Corporation</p>
+                      <p>Professional-level certification in SolidWorks 3D modeling and design.</p>
+                  </div>
+                  <div class="certificate-thumbnail">
+                      <img src="/solid.jpg" alt="SolidWorks Certificate Thumbnail">
+                      <span class="view-certificate">View <i class="fas fa-search-plus"></i></span>
+                  </div>
+              </div>
+              
+              <div class="certificate-item" data-certificate="cae">
+                  <div class="certificate-content">
+                      <h3>Certificate in Advanced English</h3>
+                      <p>June 2013 | Cambridge ESOL</p>
+                      <p>C1 level English language certification from Cambridge Assessment English.</p>
+                  </div>
+                  <div class="certificate-thumbnail">
+                      <img src="/esol.jpg" alt="CAE Certificate Thumbnail">
+                      <span class="view-certificate">View <i class="fas fa-search-plus"></i></span>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- Certificate Modal -->
+      <div id="certificate-modal" class="certificate-modal">
+          <div class="certificate-modal-content">
+              <span class="close-certificate-modal">&times;</span>
+              <h3 id="certificate-modal-title" class="certificate-modal-title">Certificate Title</h3>
+              <img id="certificate-modal-image" class="certificate-modal-image" src="/placeholder.svg?height=600&width=800" alt="Certificate">
+              <div id="certificate-modal-description" class="certificate-modal-description">
+                  <p>Certificate details will appear here.</p>
+              </div>
+          </div>
+      </div>
+      
+      <section id="interests" class="cv-section section-animate">
+          <h2>Interests</h2>
+          <div class="interests-container">
+              <div class="interest-item">
+                  <i class="fas fa-language"></i>
+                  <span>Languages and Communication</span>
+              </div>
+              <div class="interest-item">
+                  <i class="fas fa-leaf"></i>
+                  <span>Sustainable Design and Lifestyle</span>
+              </div>
+              <div class="interest-item">
+                  <i class="fas fa-rocket"></i>
+                  <span>Science Fiction</span>
+              </div>
+              <div class="interest-item">
+                  <i class="fas fa-robot"></i>
+                  <span>New Technologies and AI</span>
+              </div>
+              <div class="interest-item">
+                <i class="fas fa-coffee"></i>
+                <span>Kommunikationsfrivillig</span>
+            </div>
+          </div>
+      </section>
+      
+      <div class="cv-actions bottom">
+          <a href="#" class="btn btn-download">Download CV as PDF <i class="fas fa-download"></i></a>
+      </div>
+  </main>
+
+  <footer>
+      <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+      // Scroll progress bar
+      window.addEventListener('scroll', function() {
+          const scrollTop = window.scrollY;
+          const docHeight = document.body.offsetHeight - window.innerHeight;
+          const scrollPercent = (scrollTop / docHeight) * 100;
+          document.querySelector('.scroll-progress').style.width = scrollPercent + '%';
+      });
+      
+      // Certificate modal functionality
+      document.addEventListener('DOMContentLoaded', function() {
+          const certificateItems = document.querySelectorAll('.certificate-item');
+          const modal = document.getElementById('certificate-modal');
+          const modalTitle = document.getElementById('certificate-modal-title');
+          const modalImage = document.getElementById('certificate-modal-image');
+          const modalDescription = document.getElementById('certificate-modal-description');
+          const closeModal = document.querySelector('.close-certificate-modal');
+          
+          // Certificate details content
+          const certificateDetails = {
+              studieproven: {
+                  title: "Studieprøven Certificate",
+                  image: "/studieproven.jpg", // Replace with actual certificate image
+                  description: `
+                      <p>The Studieprøven is the highest level Danish language exam, equivalent to the C1 level in the Common European Framework of Reference for Languages (CEFR).</p>
+                      <p>This certificate demonstrates proficiency in Danish at an academic level, allowing for university studies conducted in Danish.</p>
+                      <p><strong>Issuing Authority:</strong> Udlændinge- og Integrationsministeriet (Ministry of Immigration and Integration)</p>
+                      <p><strong>Date Issued:</strong> December 2024</p>
+                  `,
+              },
+              dansk3: {
+                  title: "Prøve i Dansk 3 Certificate",
+                  image: "/pd3.jpg", // Replace with actual certificate image
+                  description: `
+                      <p>Prøve i Dansk 3 is an advanced Danish language certification that demonstrates professional fluency in Danish.</p>
+                      <p>This certification is often required for certain types of employment and residency in Denmark.</p>
+                      <p><strong>Issuing Authority:</strong> Udlændinge- og Integrationsministeriet (Ministry of Immigration and Integration)</p>
+                      <p><strong>Date Issued:</strong> December 2024</p>
+                  `,
+              },
+              "solidworks-sheet": {
+                  title: "Certified SolidWorks Professional in Advanced Sheet Metal",
+                  image: "/sheet_metal.jpg", // Replace with actual certificate image
+                  description: `
+                      <p>The CSWP-Sheet Metal certification demonstrates advanced proficiency in SolidWorks sheet metal design tools and methodologies.</p>
+                      <p>This specialized certification validates expertise in creating complex sheet metal parts and assemblies using SolidWorks.</p>
+                      <p><strong>Issuing Authority:</strong> DS SolidWorks Corporation</p>
+                      <p><strong>Date Issued:</strong> August 2020</p>
+                  `,
+              },
+              solidworks: {
+                  title: "Certified SolidWorks Professional",
+                  image: "/solid.jpg", // Replace with actual certificate image
+                  description: `
+                      <p>The Certified SolidWorks Professional (CSWP) certification demonstrates advanced abilities in 3D modeling using SolidWorks.</p>
+                      <p>This certification validates expertise in creating parts, assemblies, and drawings using SolidWorks CAD software.</p>
+                      <p><strong>Issuing Authority:</strong> SolidWorks Corporation</p>
+                      <p><strong>Date Issued:</strong> November 2018</p>
+                  `,
+              },
+              cae: {
+                  title: "Certificate in Advanced English",
+                  image: "/esol.jpg", // Replace with actual certificate image
+                  description: `
+                      <p>The Certificate in Advanced English (CAE) is a high-level qualification that demonstrates advanced English language skills (C1 level).</p>
+                      <p>This internationally recognized certification is accepted by thousands of educational institutions and employers worldwide.</p>
+                      <p><strong>Issuing Authority:</strong> Cambridge Assessment English</p>
+                      <p><strong>Date Issued:</strong> June 2013</p>
+                  `,
+              },
+          };
+          
+          // Open modal when a certificate item is clicked
+          certificateItems.forEach(item => {
+              item.addEventListener('click', function() {
+                  const certificateId = this.getAttribute('data-certificate');
+                  const certificate = certificateDetails[certificateId];
+                  
+                  modalTitle.textContent = certificate.title;
+                  modalImage.src = certificate.image;
+                  modalImage.alt = certificate.title;
+                  modalDescription.innerHTML = certificate.description;
+                  modal.style.display = 'flex';
+              });
+          });
+          
+          // Close modal when X is clicked
+          if (closeModal) {
+              closeModal.addEventListener('click', () => {
+                  modal.style.display = 'none';
+              });
+          }
+          
+          // Close modal when clicking outside the modal content
+          window.addEventListener('click', (event) => {
+              if (event.target === modal) {
+                  modal.style.display = 'none';
+              }
+          });
+      });
+  </script>
+</body>
+</html>
+

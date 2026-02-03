@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="animations.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+  <div class="scroll-progress"></div>
+  
+  <header>
+      <nav>
+          <div class="logo">
+              <a href="index.html">
+                  <img src="/mblogo.jpg" alt="Logo" height="50" width="50">
+              </a>
+          </div>
+          <ul class="nav-links">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="cv_page.html">CV</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <div class="mode-toggle-container">
+              <button id="mode-toggle">Light Mode</button>
+          </div>
+      </nav>
+  </header>
+
+  <!-- 1. Hero Section -->
+  <section class="hero">
+      <div class="hero-content section-animate">
+           <h1>Hello</h1>
+          <div class="h2-btn-container">
+              <h2>Welcome to my website. Meet me and my work.</h2>
+              <a href="portfolio.html" class="btn">Browse My Work</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- 2. Bio Section -->
+  <section class="bio-section">
+      <div class="container">
+          <div class="bio-grid">
+              <div class="bio-image section-animate">
+                  <img src="/foto.jpg" alt="My Photo">
+              </div>
+              <div class="bio-content section-animate">
+                  <h2>About Me</h2>
+                  <p><b>BIO: </b>Passionate designer from PL to DK </p>
+                  <p><b>What I do: </b>product design, web development, sustainable design</p>
+                  <p><b>Mission: </b>I aim to drive innovation in user-centered design.</p>
+                  <a href="cv_page.html" class="btn hover-lift">Go to my CV</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- 3. My Work Section -->
+  <section class="work-section">
+      <div class="container">
+          <h2>My Work</h2>
+          <div class="work-grid">
+              <!-- Row 1 -->
+              <div class="work-item hover-lift section-animate">
+                  <a href="product_page.html" class="work-item-link">
+                      <div class="work-image">
+                          <img src="/proj.jpg" alt="Project 1">
+                          <div class="work-overlay">
+                              <div class="work-view-text">
+                                  <span>View Project</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="work-info">
+                          <h3>Project One</h3>
+                          <p>A brief description of the project and what it entails.</p>
+                      </div>
+                  </a>
+              </div>
+              
+              <div class="work-item hover-lift section-animate">
+                  <a href="product_page.html" class="work-item-link">
+                      <div class="work-image">
+                          <img src="/placeholder.svg?height=200&width=300" alt="Project 2">
+                          <div class="work-overlay">
+                              <div class="work-view-text">
+                                  <span>View Project</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="work-info">
+                          <h3>Project Two</h3>
+                          <p>A brief description of the project and what it entails.</p>
+                      </div>
+                  </a>
+              </div>
+              
+              <div class="work-item hover-lift section-animate">
+                  <a href="product_page.html" class="work-item-link">
+                      <div class="work-image">
+                          <img src="/placeholder.svg?height=200&width=300" alt="Project 3">
+                          <div class="work-overlay">
+                              <div class="work-view-text">
+                                  <span>View Project</span>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="work-info">
+                          <h3>Project Three</h3>
+                          <p>A brief description of the project and what it entails.</p>
+                      </div>
+                  </a>
+              </div>
+          </div>
+          <div class="center-btn">
+              <a href="portfolio.html" class="btn">See More From My Portfolio</a>
+          </div>
+      </div>
+  </section>
+
+  <!-- 4. Projects Involved In Section -->
+  <section class="projects-involved-section">
+      <div class="container">
+          <h2>Academic projects</h2>
+          <div class="projects-list">
+              <div class="project-tile hover-lift section-animate" data-project="project1">
+                  <h3>Value Based Design in AI-assisted learning</h3>
+                  <p class="project-preview">Semester project, University of Southern Denmark. Click to learn more.</p>
+              </div>
+              
+              <div class="project-tile hover-lift section-animate" data-project="project2">
+                  <h3>User experience study and redesign of interface in case study: Aarstiderne</h3>
+                  <p class="project-preview">Brugerstudier og evaluering af digitale brugergrænseflader, University of Southern Denmark. Click to learn more.</p>
+              </div>
+              
+              <div class="project-tile hover-lift section-animate" data-project="project3">
+                  <h3>Enhancing communication strategies in local community</h3>
+                  <p class="project-preview">Finlandsparken AAB Vejle. Click to learn more.</p>
+              </div>
+              
+              <div class="project-tile hover-lift section-animate" data-project="project4">
+                  <h3>Project Title 4</h3>
+                  <p class="project-preview">Brief description of the project. Click to learn more.</p>
+              </div>
+          </div>
+          
+          <!-- Project Details Modal -->
+          <div id="project-modal" class="modal">
+              <div class="modal-content">
+                  <span class="close-modal">&times;</span>
+                  <h3 id="modal-title">Project Title</h3>
+                  <div id="modal-content">
+                      <p>Detailed description of the project will appear here when a project tile is clicked. This can include information about your role, the technologies used, challenges faced, and outcomes achieved.</p>
+                      <p>You can also include links, images, or any other relevant information about the project.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- 5. Contact Me Section -->
+  <section class="contact-section">
+      <div class="container">
+          <h2>Contact Me</h2>
+          <div class="contact-grid">
+              <div class="contact-image section-animate">
+                  <img src="/contact_image.jpg" alt="Contact Image">
+              </div>
+              <div class="contact-form-container section-animate">
+                  <form id="mini-contact-form">
+                      <div class="form-group">
+                          <label for="contact">How do I contact you back?</label>
+                          <input type="text" id="contact" name="contact" placeholder="Email, phone, or social media" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea id="message" name="message" placeholder="How can we work together?" rows="4" required></textarea>
+                      </div>
+                      <button type="submit" class="btn">Send Message</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- 6. Footer -->
+  <footer>
+      <div class="footer-content">
+          <div class="footer-info">
+              <h3>[Your Name]</h3>
+              <p>Email: <a href="mailto:malgorzata.bilejszys@gmail.com">malgorzata.bilejszys@gmail.com</a></p>
+              <p>other</p>
+          </div>
+          
+          <div class="footer-nav">
+              <h4>Navigation</h4>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="cv_page.html">CV</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+          
+          <div class="footer-social">
+              <h4>Connect</h4>
+              <div class="social-icons">
+                  <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                  <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                  <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+              </div>
+          </div>
+      </div>
+      
+      <div class="footer-bottom">
+          <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+      // Scroll progress bar
+      window.addEventListener('scroll', function() {
+          const scrollTop = window.scrollY;
+          const docHeight = document.body.offsetHeight - window.innerHeight;
+          const scrollPercent = (scrollTop / docHeight) * 100;
+          document.querySelector('.scroll-progress').style.width = scrollPercent + '%';
+      });
+      
+      // Project modal functionality
+      document.addEventListener('DOMContentLoaded', function() {
+          const projectTiles = document.querySelectorAll('.project-tile');
+          const modal = document.getElementById('project-modal');
+          const modalTitle = document.getElementById('modal-title');
+          const modalContent = document.getElementById('modal-content');
+          const closeModal = document.querySelector('.close-modal');
+          
+          // Project details content
+          const projectDetails = {
+              project1: {
+                  title: "Project Title 1",
+                  content: `
+                      <p>This is a detailed description of Project 1. It includes information about the project's goals, your role, the technologies used, and the outcomes achieved.</p>
+                      <p>You can add multiple paragraphs, lists, or other HTML elements to provide a comprehensive overview of the project.</p>
+                      <ul>
+                          <li>Key feature or achievement 1</li>
+                          <li>Key feature or achievement 2</li>
+                          <li>Key feature or achievement 3</li>
+                      </ul>
+                      <p>You can also include links to the project or related resources.</p>
+                  `
+              },
+              project2: {
+                  title: "Project Title 2",
+                  content: `
+                      <p>This is a detailed description of Project 2. It includes information about the project's goals, your role, the technologies used, and the outcomes achieved.</p>
+                      <p>You can add multiple paragraphs, lists, or other HTML elements to provide a comprehensive overview of the project.</p>
+                  `
+              },
+              project3: {
+                  title: "Project Title 3",
+                  content: `
+                      <p>This is a detailed description of Project 3. It includes information about the project's goals, your role, the technologies used, and the outcomes achieved.</p>
+                      <p>You can add multiple paragraphs, lists, or other HTML elements to provide a comprehensive overview of the project.</p>
+                  `
+              },
+              project4: {
+                  title: "Project Title 4",
+                  content: `
+                      <p>This is a detailed description of Project 4. It includes information about the project's goals, your role, the technologies used, and the outcomes achieved.</p>
+                      <p>You can add multiple paragraphs, lists, or other HTML elements to provide a comprehensive overview of the project.</p>
+                  `
+              }
+          };
+          
+          // Open modal when a project tile is clicked
+          projectTiles.forEach(tile => {
+              tile.addEventListener('click', function() {
+                  const projectId = this.getAttribute('data-project');
+                  const project = projectDetails[projectId];
+                  
+                  modalTitle.textContent = project.title;
+                  modalContent.innerHTML = project.content;
+                  modal.style.display = 'flex';
+              });
+          });
+          
+          // Close modal when X is clicked
+          if (closeModal) {
+              closeModal.addEventListener('click', function() {
+                  modal.style.display = 'none';
+              });
+          }
+          
+          // Close modal when clicking outside the modal content
+          window.addEventListener('click', function(event) {
+              if (event.target === modal) {
+                  modal.style.display = 'none';
+              }
+          });
+      });
+  </script>
+</body>
+</html>
+

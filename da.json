@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Hjem",
+    "portfolio": "Portefølje",
+    "contact": "Kontakt"
+  },
+  "language": {
+    "en": "English",
+    "da": "Dansk"
+  },
+  "modeToggle": {
+    "light": "Lys tilstand",
+    "dark": "Mørk tilstand"
+  },
+  "hero": {
+    "title": "Velkommen til Min Portefølje",
+    "subtitle": "Fremvisning af mit arbejde og færdigheder"
+  },
+  "footer": {
+    "copyright": "© 2025 Dit Navn. Alle rettigheder forbeholdes."
+  },
+  "pages": {
+    "home": {
+      "title": "Hjem"
+    },
+    "portfolio": {
+      "title": "Min Portefølje"
+    },
+    "product": {
+      "title": "Produktdetaljer"
+    },
+    "cv": {
+      "title": "Curriculum Vitae"
+    },
+    "contact": {
+      "title": "Kontakt Mig"
+    }
+  }
+}
+

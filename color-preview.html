@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #f0f0f0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .color-box {
+            height: 100px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .dark-text {
+            color: #121212;
+            text-shadow: none;
+        }
+        
+        h1 {
+            color: #ff7d00;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #ff7d00;
+            margin-top: 40px;
+        }
+        
+        .example-section {
+            background-color: #1a1a1a;
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        
+        .example-section h3 {
+            color: #ff7d00;
+            margin-bottom: 20px;
+        }
+        
+        .example-button {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #ff7d00;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .example-button.coral {
+            background-color: #ff5e5b;
+        }
+        
+        .example-button.plum {
+            background-color: #8338ec;
+        }
+        
+        .example-link {
+            color: #ff5e5b;
+            text-decoration: none;
+            margin-right: 20px;
+            font-weight: 500;
+        }
+        
+        .example-card {
+            background-color: #222222;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .example-card h4 {
+            color: #ff9e44;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vibrant Modern Color Palette</h1>
+    
+    <h2>Base Colors</h2>
+    <div class="color-grid">
+        <div class="color-box" style="background-color: #121212;">#121212 - Black</div>
+        <div class="color-box" style="background-color: #1a1a1a;">#1a1a1a - Off-Black</div>
+        <div class="color-box" style="background-color: #222222;">#222222 - Dark Gray</div>
+        <div class="color-box dark-text" style="background-color: #f0f0f0;">#f0f0f0 - Light Gray</div>
+        <div class="color-box dark-text" style="background-color: #ffffff;">#ffffff - White</div>
+    </div>
+    
+    <h2>Vibrant Orange Accent Colors</h2>
+    <div class="color-grid">
+        <div class="color-box" style="background-color: #ff7d00;">#ff7d00 - Orange</div>
+        <div class="color-box" style="background-color: #ff9e44;">#ff9e44 - Orange Light</div>
+        <div class="color-box" style="background-color: #e05f00;">#e05f00 - Orange Dark</div>
+    </div>
+    
+    <h2>Modern Complementary Colors</h2>
+    <div class="color-grid">
+        <div class="color-box" style="background-color: #ff5e5b;">#ff5e5b - Coral</div>
+        <div class="color-box" style="background-color: #ff8a87;">#ff8a87 - Coral Light</div>
+        <div class="color-box" style="background-color: #d13f3d;">#d13f3d - Coral Dark</div>
+    </div>
+    
+    <h2>Sophisticated Accent</h2>
+    <div class="color-grid">
+        <div class="color-box" style="background-color: #8338ec;">#8338ec - Plum</div>
+        <div class="color-box" style="background-color: #9d65f0;">#9d65f0 - Plum Light</div>
+        <div class="color-box" style="background-color: #6a20c5;">#6a20c5 - Plum Dark</div>
+    </div>
+    
+    <div class="example-section">
+        <h3>Example UI Elements</h3>
+        
+        <a href="#" class="example-button">Orange Button</a>
+        <a href="#" class="example-button coral">Coral Button</a>
+        <a href="#" class="example-button plum">Plum Button</a>
+        
+        <div style="margin-top: 30px;">
+            <a href="#" class="example-link">Coral Link</a>
+            <a href="#" class="example-link" style="color: #ff7d00;">Orange Link</a>
+        </div>
+        
+        <div class="example-card">
+            <h4>Card Title</h4>
+            <p>This is an example card with an orange light title and standard text.</p>
+        </div>
+    </div>
+</body>
+</html>
+
