@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Your Name</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="dark-mode">
+    <div class="scroll-progress"></div>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/mblogo.jpg" alt="Logo" height="50" width="50">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cv_page.html">CV</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mode-toggle-container">
+                <button id="mode-toggle">Light Mode</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Contact</li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+    <div class="contact-container container">
+        <h1 class="section-animate">Contact Me</h1>
+        
+        <div class="contact-grid">
+            <div class="contact-info section-animate">
+                <div class="contact-details"> 
+                    <h2>Get in Touch</h2>
+                    <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+                    
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>malgorzata.bilejszys@gmail.com</p>
+                    </div>
+                                        
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>Vejle, Denmark</p>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <h3>Find Me Here</h3>
+                    <img src="map_vejle.jpg" alt="Map Location" class="map-image">
+                    <p class="map-caption">Syddansk Universitet, Campusvej 55, 5230 Odense M, Denmark</p>
+                </div>
+            </div>
+            <div class="contact-form-container section-animate">
+                <form id="mini-contact-form">
+                    <div class="form-group">
+                        <label for="contact">How do I contact you back?</label>
+                        <input type="text" id="contact" name="contact" placeholder="Email, phone, or social media" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="How can we work together?" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Scroll progress bar
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.scrollY;
+            const docHeight = document.body.offsetHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            document.querySelector('.scroll-progress').style.width = scrollPercent + '%';
+        });
+    </script>
+</body>
+</html>
