@@ -286,4 +286,3 @@ function initAnimations() {
 
 // Run initialization when DOM is loaded
 document.addEventListener("DOMContentLoaded", initPage)
-

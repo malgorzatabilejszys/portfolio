@@ -21,20 +21,60 @@
   },
   "pages": {
     "home": {
-      "title": "Hjem"
+      "title": "Hjem",
+      "aboutTitle": "Om Mig",
+      "aboutText": "Jeg er en passioneret udvikler med erfaring inden for webudvikling."
     },
     "portfolio": {
-      "title": "Min Portefølje"
+      "title": "Min Portefølje",
+      "project1Title": "Projekt 1",
+      "project1Desc": "Beskrivelse af projekt 1",
+      "project2Title": "Projekt 2",
+      "project2Desc": "Beskrivelse af projekt 2",
+      "viewDetails": "Se Detaljer"
     },
     "product": {
-      "title": "Produktdetaljer"
+      "title": "Produktdetaljer",
+      "projectTitle": "Projekttitel",
+      "projectDesc": "Detaljeret beskrivelse af projektet.",
+      "technologies": "Teknologier",
+      "techList": "HTML, CSS, JavaScript",
+      "client": "Kunde",
+      "clientName": "Kundenavn",
+      "date": "Dato",
+      "projectDate": "Januar 2025",
+      "liveDemo": "Se Live Demo"
     },
     "cv": {
-      "title": "Curriculum Vitae"
+      "title": "Curriculum Vitae",
+      "education": "Uddannelse",
+      "degree": "Uddannelsesnavn",
+      "university": "Universitetsnavn",
+      "eduPeriod": "2020 - 2024",
+      "experience": "Arbejdserfaring",
+      "jobTitle": "Jobtitel",
+      "company": "Virksomhedsnavn",
+      "workPeriod": "2024 - Nu",
+      "jobDesc": "Jobbeskrivelse og ansvarsområder.",
+      "skills": "Færdigheder",
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "Responsivt Design"
     },
     "contact": {
-      "title": "Kontakt Mig"
+      "title": "Kontakt Mig",
+      "getInTouch": "Kom i Kontakt",
+      "contactText": "Du er velkommen til at kontakte mig for forespørgsler eller samarbejde.",
+      "email": "Email",
+      "phone": "Telefon",
+      "location": "Placering",
+      "address": "By, Land",
+      "sendMessage": "Send en Besked",
+      "nameLabel": "Navn",
+      "emailLabel": "Email",
+      "subjectLabel": "Emne",
+      "messageLabel": "Besked",
+      "submitBtn": "Send Besked"
     }
   }
 }
-

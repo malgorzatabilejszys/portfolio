@@ -21,20 +21,60 @@
   },
   "pages": {
     "home": {
-      "title": "Home"
+      "title": "Home",
+      "aboutTitle": "About Me",
+      "aboutText": "I am a passionate developer with experience in web development."
     },
     "portfolio": {
-      "title": "My Portfolio"
+      "title": "My Portfolio",
+      "project1Title": "Project 1",
+      "project1Desc": "Description of project 1",
+      "project2Title": "Project 2",
+      "project2Desc": "Description of project 2",
+      "viewDetails": "View Details"
     },
     "product": {
-      "title": "Product Details"
+      "title": "Product Details",
+      "projectTitle": "Project Title",
+      "projectDesc": "Detailed description of the project.",
+      "technologies": "Technologies",
+      "techList": "HTML, CSS, JavaScript",
+      "client": "Client",
+      "clientName": "Client Name",
+      "date": "Date",
+      "projectDate": "January 2025",
+      "liveDemo": "View Live Demo"
     },
     "cv": {
-      "title": "Curriculum Vitae"
+      "title": "Curriculum Vitae",
+      "education": "Education",
+      "degree": "Degree Name",
+      "university": "University Name",
+      "eduPeriod": "2020 - 2024",
+      "experience": "Work Experience",
+      "jobTitle": "Job Title",
+      "company": "Company Name",
+      "workPeriod": "2024 - Present",
+      "jobDesc": "Job description and responsibilities.",
+      "skills": "Skills",
+      "skill1": "HTML/CSS",
+      "skill2": "JavaScript",
+      "skill3": "Responsive Design"
     },
     "contact": {
-      "title": "Contact Me"
+      "title": "Contact Me",
+      "getInTouch": "Get in Touch",
+      "contactText": "Feel free to reach out to me for any inquiries or collaborations.",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "address": "City, Country",
+      "sendMessage": "Send a Message",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "subjectLabel": "Subject",
+      "messageLabel": "Message",
+      "submitBtn": "Send Message"
     }
   }
 }
-
